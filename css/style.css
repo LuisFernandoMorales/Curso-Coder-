@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: normal;
+    
+}
+header{
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1AB7FF;
+}
+
+.lista__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item__lista{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo__menu{
+    
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+.portada__index {
+    height: 500px;
+    width: 100%;
+    background-image: url(../recursos/imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo__portada{
+    font-size: 120px;
+    font-weight: 600;
+    padding-top: 160px;
+    margin-bottom: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitulo__portada{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion__noticas{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+} 
+
+.titulo__noticias{
+    color:  #1AB7FF ;
+    font-size: 50;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.contenedor__noticias{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    margin-top: 4px;
+    margin-bottom: 120;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia{
+    width: auto;
+    height: 280px; 
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.boton__noticia{
+    display: flex;
+    margin-left: 35%;
+    background-color: #0D69FF;
+    padding: 2px 2px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.imagen__noticia{
+    width: 300px;
+    height: 200px;
+}
+
+/** Sobre Nosotros **/
+#sobre_nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sobre_nosotros #logo{
+    margin-top: 80px;
+    width: 400px;
+    height: 300;
+}
+
+#sobre_nosotros #equipo{
+    margin: 4%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #0D69FF;
+}
+
+#sobre_nosotros p{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sobre_nosotros .sobre_nosotros_titulo{
+    color: #0D69FF;
+    font-size: 40;
+}
+#sobre_nosotros .sobre_nosotros_subtitulo{
+    color: #0D69FF;
+    margin-top: 20px;
+    font-size: 20;
+}
+
+#sobre_nosotros a{
+    margin: 40px;
+    background-color: #A0854F;
+    padding: 5px 5px;
+    border-radius: 8px;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+}
+
+#heroMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+#heroMenu .encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.encabezado h2{
+    color: #0D69FF;
+    font-size: 24;
+}
+
+section .recetas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.recetas img{
+    width: 240px;
+    height: 160px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+
+.recetas .receta{
+    padding: 12px;
+    justify-content: center;
+}
+.receta h3{
+    color: #0D69FF;
+}
+
+.receta ul{
+    list-style-type: none;
+
+}
+
+#heroEventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#heroEventos .intro_eventos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.intro_eventos h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #0D69FF;
+    padding: 40px;
+}
+
+.intro_eventos p{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 700;
+    height: 200;
+}
+
+#heroEventos .evento{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.evento h3{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #0D69FF;
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+.evento iframe{
+    padding: 40px;
+}
+
+#heroContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.titulo_formulario {
+    padding-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0D69FF;
+}
+img{
+    display: flex;
+    width: 200;
+    height: 150;
+    align-items: center;
+    margin: auto;
+}
+  
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 8px;
+}  
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #0D69FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+}
+  
+button:hover {
+    background-color: #0D69FF;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+footer h4{
+    padding-top: 16px;
+    color: white;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:480px){
+
+    /** Index**/
+    header .list-item a{
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        padding: 6px;
+    }
+    #logo{
+
+        width: 70px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    #hero{
+        height: auto;
+    }
+    #hero h1{
+        font-size: 32px;
+        padding-top: 150px;
+        margin-bottom: 6px;
+    }
+    #hero h2{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    
+    #noticias{
+        height: auto;
+    }
+
+    #noticias h3{
+        margin-top: 20px;
+        font-size: 22;
+    }
+    
+    #noticias .contenedor_de_noticias{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 18px;
+
+    }
+    
+    .contenedor_de_noticias .noticia{
+        width: auto;
+        height: 280px; 
+        border-radius: 13px;
+        margin-top: 20px;
+        padding: 16px;
+    }
+
+    footer{
+
+    }
+}
