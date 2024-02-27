@@ -5,60 +5,105 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="../css/style.css">
     <title>Eventos</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="list-item">
-                    <a href="./nuestroMenu.html">Nuestro Menu</a>
-                </li>
-                <li class="list-item">
-                    <a href="./contacto.html">Contrataciones</a>
-                </li>
-                <li class="list-item">
-                    <a href="../index.html"><img id="logo" src="../recursos/imagenes/logonegro.png" alt=""></a>
-                </li>
-                <li class="list-item">
-                    <a href="./sobreNosotros.html">Sobre Nosotros</a>
-                </li>
-                <li class="list-item">
-                    <a href="./eventos.html">Eventos</a>
-                </li>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-lightblue">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><img src="../recursos/imagenes/logonegro.png" alt="logo menu"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="nuestroMenu.html">Nuestro Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contrataciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="eventos.html">Eventos</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
+  </header>
     <main>
-        <section id="heroEventos">
-            <div class="intro_eventos">
+        <section class="section__eventos">
+            <div class="intro__eventos">
                 <h2>~Eventos~</h2>
-                <p>Bienvenido a nuestra pestaña de Eventos, donde te invitamos a sumergirte en la emocionante crónica de las experiencias que hemos compartido en cada rincón con nuestro food truck. Desde vibrantes festivales hasta eventos corporativos elegantes, hemos llevado la magia de Streetfood de  a diversas celebraciones. Explora momentos inolvidables donde la deliciosa propuesta de nuestra carne desmechada se fusiona con la alegría de cada ocasión. Únete a nosotros en esta travesía culinaria, reviviendo eventos pasados y mantente al tanto de nuestras próximas apariciones para ser parte de momentos gastronómicos extraordinarios. ¡Descubre cómo transformamos cada evento en una experiencia única y sabrosa!</p>
+                <p class="texto__eventos">Bienvenido a nuestra pestaña de Eventos, donde te invitamos a sumergirte en la emocionante crónica de las experiencias que hemos compartido en cada rincón con nuestro food truck. Desde vibrantes festivales hasta eventos corporativos elegantes, hemos llevado la magia de Streetfood de  a diversas celebraciones. Explora momentos inolvidables donde la deliciosa propuesta de nuestra carne desmechada se fusiona con la alegría de cada ocasión. Únete a nosotros en esta travesía culinaria, reviviendo eventos pasados y mantente al tanto de nuestras próximas apariciones para ser parte de momentos gastronómicos extraordinarios. ¡Descubre cómo transformamos cada evento en una experiencia única y sabrosa!</p>
             </div>
-            <div class="evento" id="#tarjetaUno">
-                <h3>"Encuentro de las Naciones" Junin-Mendoza </h3>
+            <div class="evento__uno" >
+                <h3 class="subtitulo__eventos">"Encuentro de las Naciones" Junin-Mendoza </h3>
                 <iframe src="../recursos/videos/Encuentro_naciones.mp4" frameborder="none"></iframe>
-                <p>El Encuentro de las Naciones en Junín, Mendoza, Argentina, es un evento multicultural que celebra la diversidad gastronómica y cultural de la región. En este vibrante encuentro, StreetFood tuvo el honor de participar con nuestro food truck, llevando nuestra especialidad de carne desmechada a este festivo evento. Contribuimos a la experiencia culinaria única ofreciendo sabores auténticos que reflejan la riqueza de la gastronomía local. Nuestra participación en el Encuentro de las Naciones fue una oportunidad emocionante para compartir nuestra pasión por la buena comida y conectarnos con la comunidad en un ambiente festivo y acogedor.</p>
                 
+                <p class="d-inline-flex gap-1">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Leer más!</a>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                      <div class="card card-body">
+                        El Encuentro de las Naciones en Junín, Mendoza, Argentina, es un evento multicultural que celebra la diversidad gastronómica y cultural de la región. En este vibrante encuentro, StreetFood tuvo el honor de participar con nuestro food truck, llevando nuestra especialidad de carne desmechada a este festivo evento. Contribuimos a la experiencia culinaria única ofreciendo sabores auténticos que reflejan la riqueza de la gastronomía local. Nuestra participación en el Encuentro de las Naciones fue una oportunidad emocionante para compartir nuestra pasión por la buena comida y conectarnos con la comunidad en un ambiente festivo y acogedor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="evento" id="#tarjetaDos">
-                <h3>"World" Fiesta de Fin de año San Martin-Mendoza</h3>
+            <div class="evento__dos" >
+                <h3 class="subtitulo__eventos">"World" Fiesta de Fin de año San Martin-Mendoza</h3>
                 <iframe src="../recursos/videos/world.mp4" frameborder="none"></iframe>
-                <p>¡Revivamos juntos la mágica noche de la fiesta de fin de año "World" en San Martín, Mendoza, donde StreetFood tuvo el privilegio de participar! Sumérgete en la esencia cosmopolita de este evento que nos permitió despedir el año en un ambiente de elegancia y alegría. Nuestro food truck agregó un toque delicioso a la celebración, ofreciendo exquisitas opciones que reflejaron la diversidad culinaria global. Recordemos juntos los brindis, la música envolvente y la energía festiva que marcó el cierre de un año inolvidable. ¡Gracias por compartir con nosotros este momento especial en la fiesta "World" de San Martín! ¡Esperamos volver a celebrar juntos en futuros eventos llenos de alegría y sabores únicos!</p>
+                
+                <p class="d-inline-flex gap-1">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Leer más!</a>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                      <div class="card card-body">
+                        ¡Revivamos juntos la mágica noche de la fiesta de fin de año "World" en San Martín, Mendoza, donde StreetFood tuvo el privilegio de participar! Sumérgete en la esencia cosmopolita de este evento que nos permitió despedir el año en un ambiente de elegancia y alegría. Nuestro food truck agregó un toque delicioso a la celebración, ofreciendo exquisitas opciones que reflejaron la diversidad culinaria global. Recordemos juntos los brindis, la música envolvente y la energía festiva que marcó el cierre de un año inolvidable. ¡Gracias por compartir con nosotros este momento especial en la fiesta "World" de San Martín! ¡Esperamos volver a celebrar juntos en futuros eventos llenos de alegría y sabores únicos!  
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="evento" id="#tarjetaTres">
-                <h3>"Navidad en el bosque" 24 de diciembre - San Martin-Mendoza</h3>
+            <div class="evento__tres" >
+                <h3 class="subtitulo__eventos">"Navidad en el bosque" 24 de diciembre - San Martin-Mendoza</h3>
                 <iframe src="../recursos/videos/navidad_bosque.mp4" frameborder="none"></iframe>
-                <p>¡Rememoremos la encantadora noche de Navidad en el Bosque que tuvo lugar el 24 de diciembre en San Martín, Mendoza, donde StreetFood se unió a la celebración! Enmarcada por la belleza natural del bosque, la fiesta creó un ambiente mágico y festivo que capturó la esencia navideña. Nuestro food truck contribuyó a esta experiencia única con deliciosas propuestas culinarias, fusionando la tradición con sabores innovadores. Entre risas, luces brillantes y el espíritu navideño, agradecemos haber compartido momentos especiales contigo en esta celebración única. ¡Que estas memorias festivas nos acompañen y nos inspiren para futuras celebraciones llenas de alegría y sabor!</p>
+                <p></p>
+                <p class="d-inline-flex gap-1">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Leer más!</a>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                      <div class="card card-body">
+                        ¡Rememoremos la encantadora noche de Navidad en el Bosque que tuvo lugar el 24 de diciembre en San Martín, Mendoza, donde StreetFood se unió a la celebración! Enmarcada por la belleza natural del bosque, la fiesta creó un ambiente mágico y festivo que capturó la esencia navideña. Nuestro food truck contribuyó a esta experiencia única con deliciosas propuestas culinarias, fusionando la tradición con sabores innovadores. Entre risas, luces brillantes y el espíritu navideño, agradecemos haber compartido momentos especiales contigo en esta celebración única. ¡Que estas memorias festivas nos acompañen y nos inspiren para futuras celebraciones llenas de alegría y sabor!  
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </section>
-    </main>
+    </main> 
     <footer>
-        <h4>Visita nuestro perfil de Instagram!</h4>
-        <div class="redes">
-            <a href="https://www.instagram.com/streetfood_09?igsh=OTZmeDA5b3lkeHBv"><img src="../recursos/imagenes/iglogo.png" alt="Instagram Logo"></a>
-        </div>
+      <h4>Visita nuestro perfil de Instagram!</h4>
+      <div class="redes">
+          <a href="https://www.instagram.com/streetfood_09?igsh=OTZmeDA5b3lkeHBv"><img src="../recursos/imagenes/iglogo.png" alt="Instagram Logo"></a>
+      </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
+  
 </body>
 </html>
