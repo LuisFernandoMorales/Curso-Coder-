@@ -1,0 +1,15 @@
+header{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color:#0D69FF;
+    .navbar-nav a{
+        color: white;
+    }
+    .navbar-brand img{
+        padding-top: 6;
+        width: 130px;
+        height: 100px;
+    }
+    
+}

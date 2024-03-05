@@ -1,0 +1,78 @@
+@mixin media-query-mobile{
+    @media (max-width: 576px){
+        @content;
+    }
+}
+.menu__gastronomico{
+    background-image: url(../recursos/imagenes/fondo__menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .encabezado__mg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 90px;
+        h2{
+            color: white;
+            font-size: 34;
+        }
+    }
+    .recetas__mg{
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        margin: 1% 30px 1% 30px;
+        width: 700;
+        height: 220; 
+        box-shadow: 0 2px 2px rgba(0.7,0.7,0.7,0.7);
+        overflow: hidden;
+        img{
+            width: 240px;
+            height: 220;
+        }
+        .receta{
+            padding: 12px;
+            justify-content: center;
+            h3{
+                color: #0D69FF;
+            }
+            ul{
+                list-style-type: none;
+                width: fit-content;
+            }
+        }
+    }
+
+}
+@include media-query-mobile(){
+    .menu__gastronomico{
+        .recetas__mg{
+            width: 320px;
+            height: auto;
+            flex-direction: column;
+            margin: 2% 0 2% 0;
+            img{
+                width: 100%;
+            }
+        }
+        .receta{
+            font-size: 16px;
+        }
+        .reversa{
+            display: flex ;
+            flex-direction: column-reverse;
+        }
+    } 
+}

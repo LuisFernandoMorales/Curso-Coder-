@@ -1,0 +1,137 @@
+@mixin media-query-mobile{
+    @media (max-width: 576px){
+        @content;
+    }
+}
+.index{
+    .portada__index {
+        height: 500px;
+        width: 100%;
+        background-image: url(../recursos/imagenes/fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .titulo__portada{
+            font-size: 120px;
+            font-weight: 600;
+            padding-top: 160px;
+            margin-bottom: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitulo__portada{
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }       
+    .seccion__noticias{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .titulo__noticias{
+            color:  #1AB7FF ;
+            font-size: 50;
+            font-weight: 300px;
+            text-align: center;
+        }
+        .contenedor__noticias{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            margin-top: 4px;
+            margin-bottom: 120;
+            justify-content: center;
+            align-items: center;
+            .noticia{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: auto;
+                height: auto; 
+                border-radius: 15px;
+                box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+                overflow: hidden;
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+                .boton__noticia{
+                    display: flex;
+                    background-color: #0D69FF;
+                    padding: 2px 2px;
+                    border-radius: 8px;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    width: fit-content;
+                    margin-bottom: 10px;
+                }
+                
+                .imagen__noticia{
+                    width: 300px;
+                    height: auto;
+                }
+             
+            }
+        } 
+    }    
+    @include media-query-mobile(){
+        .portada__index{
+            height: auto;
+            .titulo__portada{
+                font-size: 32px;
+                padding-top: 150px;
+                margin-bottom: 6px;
+            }
+            .subtitulo__portada{
+                font-size: 20px;
+                margin-bottom: 16px;
+            }
+        }
+        .seccion__noticias{
+            height: auto;
+            .titulo__noticias{
+                margin-top: 20px;
+                font-size: 22;
+            }
+            .contenedor__noticias{
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                .noticia{
+                    align-items: center;
+                    width: auto;
+                    height: auto; 
+                    border-radius: 13px;
+                    margin-top: 20px;
+                    padding: 5px;
+                    .boton__noticia{
+                        display: flex;
+                        background-color: #0D69FF;
+                        padding: 2px 2px;
+                        border-radius: 8px;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        width: fit-content;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .imagen__noticia{
+                        width: 300px;
+                        height: auto;
+                    }
+     
+                }
+            }
+        }
+    }
+}

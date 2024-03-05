@@ -1,0 +1,18 @@
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+footer h4{
+    padding-top: 16px;
+    color: white;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

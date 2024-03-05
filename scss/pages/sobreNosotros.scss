@@ -1,0 +1,54 @@
+.sobre__nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 5%;
+    margin: 5px;
+    .logo__sn{
+        margin: 10px 0 10px 0;
+        width: 400px;
+        height: 300;
+    }
+    .titulo__sn{
+        color: #0D69FF;
+        font-size: 40;
+    }
+    .subtitulo__sn{
+        color: #0D69FF;
+        margin-top: 20px;
+        font-size: 20;
+    }
+    .equipo{
+        margin: 4%;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 1px solid;
+        border-color: #0D69FF;
+    }
+    a{
+        display: flex;
+        background-color: #A0854F;
+        padding: 5px 5px;
+        border-radius: 8px;
+        color:white;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+    }
+        
+}
+
+
+
+
+
+
+
