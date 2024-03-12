@@ -19,6 +19,10 @@ header .navbar-brand img {
   width: 130px;
   height: 100px;
 }
+header .navbar-brand img:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease;
+}
 
 footer {
   background-color: black;
@@ -85,6 +89,7 @@ footer .redes {
   align-items: center;
 }
 .index .seccion__noticias .contenedor__noticias .noticia {
+  transition: all 1s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,6 +118,10 @@ footer .redes {
 .index .seccion__noticias .contenedor__noticias .noticia .imagen__noticia {
   width: 300px;
   height: auto;
+}
+.index .seccion__noticias .contenedor__noticias .noticia:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s ease;
 }
 @media (max-width: 576px) {
   .index .portada__index {
@@ -271,6 +280,11 @@ footer .redes {
   border-radius: 50%;
   border: 1px solid;
   border-color: #0D69FF;
+  transition: all 1.5 ease;
+}
+.sobre__nosotros .equipo:hover {
+  transform: scale(1.5, 1.5);
+  transition: all 1.3s ease;
 }
 .sobre__nosotros a {
   display: flex;
@@ -321,6 +335,7 @@ footer .redes {
   height: 220;
   box-shadow: 0 2px 2px rgba(1, 1, 1, 0.7);
   overflow: hidden;
+  transition: all 1s ease;
 }
 .menu__gastronomico .recetas__mg img {
   width: 240px;
@@ -336,6 +351,10 @@ footer .redes {
 .menu__gastronomico .recetas__mg .receta ul {
   list-style-type: none;
   width: fit-content;
+}
+.menu__gastronomico .recetas__mg:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s ease;
 }
 
 @media (max-width: 576px) {

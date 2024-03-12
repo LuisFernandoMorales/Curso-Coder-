@@ -3,6 +3,7 @@ header{
     width: auto;
     display: flex;
     background-color:#0D69FF;
+    
     .navbar-nav a{
         color: white;
     }
@@ -10,6 +11,10 @@ header{
         padding-top: 6;
         width: 130px;
         height: 100px;
+    }
+    .navbar-brand img:hover{
+        transform: rotate(360deg);
+        transition: all 1s ease;
     }
     
 }

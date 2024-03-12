@@ -49,6 +49,7 @@
             justify-content: center;
             align-items: center;
             .noticia{
+                transition: all 1s ease;    
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -63,7 +64,7 @@
                 text-align: center;
                 .boton__noticia{
                     display: flex;
-                    background-color: #0D69FF;
+                    background-color:$color-primario;
                     padding: 2px 2px;
                     border-radius: 8px;
                     color: white;
@@ -79,6 +80,10 @@
                     height: auto;
                 }
              
+            }
+            .noticia:hover{
+                transform: scale(1.1, 1.1);
+                transition: all 1s ease;
             }
         } 
     }    
@@ -114,7 +119,7 @@
                     padding: 5px;
                     .boton__noticia{
                         display: flex;
-                        background-color: #0D69FF;
+                        background-color: $color-primario;
                         padding: 2px 2px;
                         border-radius: 8px;
                         color: white;

@@ -53,8 +53,12 @@
                 width: fit-content;
             }
         }
+        transition: all 1s ease;
     }
-
+    .recetas__mg:hover{
+        transform: scale(1.1, 1.1);
+        transition: all 1s ease;
+    }
 }
 @include media-query-mobile(){
     .menu__gastronomico{

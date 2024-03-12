@@ -19,7 +19,7 @@
     .intro__eventos{
         grid-area: i__eventos;
         h2{
-            color: #0D69FF;
+            color: $color-primario;
         }
         .texto__eventos{
             margin: 30px;
@@ -64,7 +64,7 @@
         .subtitulo__eventos{
             margin: 2px 0 2px 0;
             height: 100px;
-            color: #0D69FF;
+            color:$color-primario;
         }
         iframe{
             margin: 10px;

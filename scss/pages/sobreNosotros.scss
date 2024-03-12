@@ -15,11 +15,11 @@
         height: 300;
     }
     .titulo__sn{
-        color: #0D69FF;
+        color:$color-primario;
         font-size: 40;
     }
     .subtitulo__sn{
-        color: #0D69FF;
+        color: $color-primario;
         margin-top: 20px;
         font-size: 20;
     }
@@ -29,7 +29,12 @@
         height: 300px;
         border-radius: 50%;
         border: 1px solid;
-        border-color: #0D69FF;
+        border-color:$color-primario;
+        transition: all 1.5 ease;   
+    }
+    .equipo:hover{
+        transform: scale(1.5 , 1.5);
+        transition: all 1.3s ease;
     }
     a{
         display: flex;
