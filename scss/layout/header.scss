@@ -1,20 +1,21 @@
-header{
-    height: auto;
+header {
+    height: fit-content;
     width: auto;
     display: flex;
-    background-color:#0D69FF;
+    background-color:$color-primario;
     
-    .navbar-nav a{
-        color: white;
-    }
-    .navbar-brand img{
-        padding-top: 6;
-        width: 130px;
-        height: 100px;
-    }
-    .navbar-brand img:hover{
-        transform: rotate(360deg);
-        transition: all 1s ease;
+    .navbar-nav a {
+      color: white;
     }
     
-}
+    .navbar-brand img {
+      padding-top: 6px;
+      width: 130px;
+      height: 100px;
+    }
+    
+    .navbar-brand img:hover {
+      transform: rotate(360deg);
+      transition: all 1s ease;
+    }
+  }

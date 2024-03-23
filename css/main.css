@@ -6,7 +6,7 @@
 }
 
 header {
-  height: auto;
+  height: fit-content;
   width: auto;
   display: flex;
   background-color: #0D69FF;
@@ -15,7 +15,7 @@ header .navbar-nav a {
   color: white;
 }
 header .navbar-brand img {
-  padding-top: 6;
+  padding-top: 6px;
   width: 130px;
   height: 100px;
 }
@@ -320,11 +320,13 @@ footer .redes {
   height: auto;
   overflow: hidden;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 80px;
 }
-.menu__gastronomico .encabezado__mg h2 {
+.menu__gastronomico .encabezado__mg h1 {
   color: white;
-  font-size: 34;
+  font-size: 80;
+  margin-bottom: 16px;
+  font-family: "Great Vibes", cursive;
 }
 .menu__gastronomico .recetas__mg {
   background-color: aliceblue;
@@ -332,14 +334,14 @@ footer .redes {
   flex-direction: row;
   margin: 1% 30px 1% 30px;
   width: 700;
-  height: 220;
+  height: 240;
   box-shadow: 0 2px 2px rgba(1, 1, 1, 0.7);
   overflow: hidden;
   transition: all 1s ease;
 }
 .menu__gastronomico .recetas__mg img {
   width: 240px;
-  height: 220;
+  height: 240;
 }
 .menu__gastronomico .recetas__mg .receta {
   padding: 12px;
@@ -347,10 +349,16 @@ footer .redes {
 }
 .menu__gastronomico .recetas__mg .receta h3 {
   color: #0D69FF;
+  font-family: "Great Vibes", cursive;
+  font-size: 35;
 }
 .menu__gastronomico .recetas__mg .receta ul {
   list-style-type: none;
   width: fit-content;
+}
+.menu__gastronomico .recetas__mg .receta ul li {
+  font-family: "Cookie", cursive;
+  font-size: 30;
 }
 .menu__gastronomico .recetas__mg:hover {
   transform: scale(1.1, 1.1);
@@ -387,7 +395,7 @@ footer .redes {
 .section__eventos .intro__eventos {
   grid-area: i__eventos;
 }
-.section__eventos .intro__eventos h2 {
+.section__eventos .intro__eventos h1 {
   color: #0D69FF;
 }
 .section__eventos .intro__eventos .texto__eventos {
